@@ -1,0 +1,38 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+}
+.main-heading h2{
+    margin-bottom: 20px;
+
+}
+button{
+ display: inline-block;   
+ background-color: rgb(247, 151, 83);
+ color: rgb(0, 0, 0);
+ font-size: 20px;
+ font-weight: normal;
+ text-align: center;
+ border-radius: 3px;
+ transition: 400ms;
+ text-decoration: none;
+ padding: 10px;
+ z-index: 10000;
+}
+img{
+    width: 150px;
+
+}
